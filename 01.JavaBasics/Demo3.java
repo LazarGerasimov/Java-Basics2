@@ -6,7 +6,8 @@ public class Demo3 {
     Scanner scanner = new Scanner(System.in);
     String input = scanner.nextLine();
     int number = Integer.parseInt(input);
-    System.out.println(number);
-
+    int result = number * 2;
+    System.out.println(result);
+    scanner.close();
   }
 }
