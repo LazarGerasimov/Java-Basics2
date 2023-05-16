@@ -9,12 +9,10 @@ public class Demo2 {
     // System.out.println(randomNum);
 
     Scanner scanner = new Scanner(System.in);
+
+      String userInput = scanner.nextLine();
+      System.out.println(userInput);
     
-    try {
-      String name = scanner.nextLine();
-      System.out.println(name);
-    } finally {
-      in.close();
-    }
+
   }
 }

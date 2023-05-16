@@ -1,6 +1,6 @@
 compile = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
-run = "java -classpath .:target/dependency/* Demo2"
-entrypoint = "Demo2.java"
+run = "java -classpath .:target/dependency/* Demo3"
+entrypoint = "Demo3.java"
 hidden = ["**/*.class"]
 
 [packager]
@@ -56,8 +56,8 @@ type = "request"
 
 [debugger.interactive.launchMessage.arguments]
 classPaths = ["."]
-mainClass = "Demo2"
+mainClass = "Demo3"
 
 [deployment]
 build = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
-run = "java -classpath .:target/dependency/* Demo2"
+run = "java -classpath .:target/dependency/* Demo3"
