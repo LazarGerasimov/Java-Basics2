@@ -7,9 +7,11 @@ public class Demo4 {
 
     String name = scanner.nextLine();
 
-    System.out.print("Hello, ");
-    System.out.print(name);
-    System.out.println("!");
+    // System.out.print("Hello, ");
+    // System.out.print(name);
+    // System.out.println("!");
+
+    System.out.println("Hello " + name + "!");
 
     scanner.close();
   }
