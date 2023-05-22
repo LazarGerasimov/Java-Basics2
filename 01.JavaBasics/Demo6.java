@@ -13,6 +13,15 @@ public class Demo6 {
 
     // Process finished with exit code 0 === no errors in execution
 
+    String randomString = "randomString";
+
+    if (randomString.equals("randomString")) {
+      String success = "Success";
+      System.out.println(success);
+    } else {
+      System.out.println("Not Found");
+    }
+
     scanner.close();
   }
 }
