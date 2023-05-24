@@ -11,6 +11,7 @@ public class LoopsDemo{
       System.out.println(text.charAt(index));
     }
 
+    // .length() instead of .length as in JS
 
     scanner.close();
   }
